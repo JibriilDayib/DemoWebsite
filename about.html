@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>About</title>
+
+</head>
+<body>
+    <nav class="navigation">
+        <h1 class="logo">Library</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="book.html">Books</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact-section">Contact Us</a></li>
+        </ul>
+        <div class="log-btns">
+            <button class="login-btn" onclick="login()">Login</button>
+            <button class="logout-btn" onclick="login()">Logout</button>
+            <script>
+                function login(){
+                    window.location.href = 'login.html'
+                }
+            </script>
+        </div>
+    </nav>
+    <div class="about-info" id="about-section">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, voluptatibus. Beatae soluta ab qui vero nihil doloribus laudantium cumque repellat provident consectetur tempore, excepturi id quae vel quibusdam cum sequi?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat rem doloribus consequuntur, totam quisquam vitae corporis. Non, consequuntur, impedit molestias quos natus voluptatem et, tempore beatae dignissimos molestiae quibusdam. Eaque?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid esse porro, nesciunt ut totam facilis! Sint accusamus necessitatibus consectetur ullam tempora dolore, quidem deserunt pariatur architecto reiciendis alias mollitia omnis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus est at, consequuntur, rem ipsam cumque quod quis, quos alias sint doloremque esse repudiandae itaque corporis blanditiis eius necessitatibus quas dolore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam temporibus beatae, consectetur voluptas accusantium at voluptatibus laborum quasi hic odit porro optio eum dignissimos ab, cumque suscipit amet atque?
+        </p>
+    </div>
+    <div class="contact-info" id="contact-section">
+        <div class="blur-section">
+            <h1>Contact Us</h1>
+            <p>Email: xxxxxxxx@gmail.com</p>
+            <p>Phone Number: 123-456-7890</p>
+            <p>Address: XXXX Rd, California, USA</p>
+        </div>
+    </div>
+</body>
+</html>
